@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: url('TicTacToeBg1.webp');
+    text-align: center;
+}
+
+#tic{
+    color:#D84315;
+    
+}
+.container{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #1565C0;
+    background-color: #FADBD8;
+}
+.box.O{
+    color: #FBC02D;
+}
+.box.X{
+    color: #1565C0;
+}
+
+#reset-btn{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: #42A5F5 ;
+    color:#FFFFFF;
+    border-radius: 1rem;
+    border:none;
+}
+ #new-btn {
+    padding:1rem;
+    font-size:1.25rem;
+    background-color:#1976D2 ;
+    color:#FFFFFF;
+    border-radius: 1rem;
+    border:none;
+ }
+
+#msg {
+  font-size: 8vmin;
+  font-weight: bold;
+  background: repeating-linear-gradient(
+    135deg,
+    #f48fb1,
+    #f48fb1 15px,
+    #ba68c8 15px,
+    #ba68c8 30px,
+    #64b5f6 30px,
+    #64b5f6 45px
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: candyMove 5s infinite linear;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}
+
+@keyframes candyMove {
+  0% { background-position: 0 0; }
+  100% { background-position: 300px 300px; }
+}
+
+
+
+ .msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+ }
+
+ .hide{
+    display:none;
+ }
