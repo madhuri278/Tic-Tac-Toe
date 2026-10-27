@@ -1,0 +1,49 @@
+✨ Smart To-Do
+Smart To-Do is a simple, stylish task management web application built with HTML, CSS, and JavaScript. It helps users organize daily tasks, track completed and pending work, and manage tasks through an easy-to-use interface.
+🚀 Features
+- Add Tasks: Add new tasks to your to-do list.
+- Mark Tasks as Completed: Click a task to mark it as completed or pending.
+- Edit Tasks: Update an existing task.
+- Delete Tasks: Remove tasks you no longer need.
+- Filter Tasks: View all tasks, completed tasks, or pending tasks.
+- Dark Mode: Switch between light and dark themes.
+- Local Storage: Tasks are saved in the browser, so they remain available after refreshing the page.
+- Pastel UI: A clean interface with a gradient background, rounded elements, and hover effects.
+🛠️ Technologies Used
+- HTML5 — structures the application.
+- CSS3 — styles the interface and provides light/dark theme styling.
+- JavaScript — handles task operations, filtering, and theme switching.
+- Browser Local Storage — stores tasks locally in the browser.
+📁 Project Structure
+smart-to-do/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+💻 Getting Started
+No installation or additional dependencies are required.
+1. Download or clone this project.
+2. Keep index.html, style.css, and script.js in the same folder.
+3. Open index.html in your web browser.
+4. Start adding and managing your tasks.
+📖 How to Use
+1. Enter a task in the input field.
+2. Click the ➕ button to add it.
+3. Click a task's text to mark it as completed or pending.
+4. Click the ✏️ button to edit a task.
+5. Click the ❌ button to delete a task.
+6. Use All, Done, and Pending to filter the task list.
+7. Click 🌙 Toggle Mode to switch between light and dark mode.
+💾 Data Storage
+Tasks are stored in the browser's localStorage. They persist across page refreshes in the same browser and site context. Since the app uses local storage, tasks are not automatically synchronized across devices or browsers. Clearing the browser's site data may remove saved tasks.
+
+The selected theme is currently toggled for the active page session and is not saved as a preference.
+🔮 Possible Future Improvements
+- Add due dates and task priorities.
+- Add search functionality.
+- Save the user's dark-mode preference.
+- Add task categories.
+- Add responsive styling for a wider range of screen sizes.
+- Add task completion statistics.
+📄 License
+This project is available for personal learning and modification. Add a license file if you plan to distribute it under a specific open-source license.
